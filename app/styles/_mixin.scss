@@ -1,0 +1,7 @@
+$desktop-width: 1024px;
+
+@mixin mq-desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content
+  }
+}
